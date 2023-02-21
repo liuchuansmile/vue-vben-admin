@@ -27,7 +27,7 @@
 
     <component :is="currentModal" v-model:visible="modalVisible" :userData="userData" />
 
-    <Modal1 @register="register1" :minHeight="100" />
+    <Modal1 @register="register1" :minHeight="300" />
     <Modal2 @register="register2" />
     <Modal3 @register="register3" />
     <Modal4 @register="register4" />
